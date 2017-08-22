@@ -1,41 +1,55 @@
+.inicio-post{
+    background-color: #FFF;
+    color: #000000;
+    position: absolute;
+    top: 4em;
+    right: 26em;
+    height: 6em;
+    padding: 1em;
+    border-radius: 10px;
+}
 body {
-    margin: 0;
+    font-family: "Crimson Text","Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size:120%;
+    line-height: 1.5;
+
 }
 .fotoperfil {
     background-color: #861943;
-    margin: 0px;
+    margin: -8px;
     border-top:15px #861943 solid;
+}
+.eu{
+    border-radius: 146px;
 }
 img {
     display: block;
     margin: auto;
+
 }
 h1{
     text-align: center;
     background-color: #851944;
     color: #FFFFFF;
     text-transform: uppercase;
-    margin: -2px;
+    margin: -8px;
     font-size: 56px;
+    text-shadow: 5px 5px #000 ;
 }
 .subtitulo-principal{
     text-align: center;
     background-color: #851944;
     border-bottom: 10px solid black;
     color: #FFFFFF;
-    margin: 0;
+    margin: -8px;
     font-size: 20px;
 }
-.inicio-postst{
-    background-color: #FFF;
-    position:absolute;
-    top:3em;
-    right: 3em;
-    height: 6em;
-    padding: 1em;
-}
+
 .foto-home {
     height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 1em #000;
 }
 .saudacao p {
     font-size: 1.5em;
@@ -58,6 +72,8 @@ h1{
 .saudacao em {
     color: #851944;
     font-size: 4em;
+    -webkit-transform: rotate(-5deg) skew(-10deg);
+    display: inline-block;
 }
 .botao-index {
     font-size: 1.25em;
@@ -77,6 +93,7 @@ h1{
     font-size: 3em;
     text-transform: uppercase;
     margin-bottom: .5em;
+    text-shadow: 0pc 0px #000;
 }
 .trabalhos {
     background-color: #3C1D3D;
@@ -100,6 +117,7 @@ h1{
 }
 .blog {
     background-color: #999;
+    position: relative;
     color: #FFF;
     border-bottom: .5em solid #851944;
 }

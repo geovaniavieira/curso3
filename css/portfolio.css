@@ -137,18 +137,30 @@ main{
     margin-top: -182px;
     margin-left: 373px;
 }
-.bmw {
+.bmw, .uol,.ibm,.g1{
     border: 0;
     float: none;
     display: block;
     position: relative;
     margin: 0 auto;
-}
 
+}
+.esquerda{
+ float: left;
+}
+.direita{
+    float: right;
+    margin-right: 232px;
+}
 .quadro{
     width: 300px;
-    border: 10px solid #000000
+    border: 10px solid #000000;
+    margin-top: 37px;
+    margin-left: 10px;
+    padding: 10px;
+    padding-bottom: 5px;
 }
+
 .foto{
     width: 300px;
     border: 10px solid#000000;
@@ -169,13 +181,7 @@ main{
     margin: 0 auto;
 }
 
-.uol {
-    border: 0;
-    float: none;
-    display: block;
-    position: relative;
-    margin: 0 auto;
-}
+
 .divlinkuol {
     width: 300px;
     margin-top: -91px;
@@ -185,14 +191,7 @@ main{
     margin-top: 120px;
     margin-left: 373px;
 }
-.ibm {
-    padding-top: 30px;
-    padding-right:30px;
-    padding-left: 30px;
-    padding-bottom: 100px;
-    border:10px solid black;
-    margin-right: 602px;
-}
+
 .divlinkibm {
     width: 300px;
     margin-top: -94px;
@@ -202,13 +201,7 @@ main{
     margin-top: -247px;
     margin-left: 857px
 }
-.g1 {
-    padding-top: 30px;
-    padding-right:30px;
-    padding-left: 30px;
-    padding-bottom: 100px;
-    border:10px solid black;
-}
+
 .divlinkg1 {
     width: 300px;
     margin-top: -92px;
