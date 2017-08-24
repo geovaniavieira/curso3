@@ -1,0 +1,104 @@
+body {
+    background-color: #F2FFFC;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width:940px;
+}
+main h1 {
+    font-size: 60px;
+    background-color: rgb(120,30,60);
+    color: #FAFFFA;
+    text-align: center ;
+    font-family: "open sans  Cadensed",sans-serif;
+    padding: 20px;
+    margin:0;
+    text-transform: uppercase;
+    border-bottom: 10px solid black;
+}
+main a{
+    color:#000;
+}
+aside{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
+    font-family: "open sans Cadensed",sans-serif;
+}
+
+nav a{
+    color: inherit;
+    text-transform: lowercase;
+    list-style: none;
+}
+
+.icones-sociais li {
+    display: inline-block;
+    width: 50px;
+    position: relative;
+    margin: auto;
+}
+
+footer{
+    color: #F2FFFC;
+    padding:20px;
+}
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.github{
+    background-image: url("../imagens/github.png");
+}
+.twitter{
+    background-image: url("../imagens/twitter.png");
+}
+.linkedin{
+    background-image: url("../imagens/linkedin.png");
+}
+.fiat{
+    float: right;
+}
+.petrobras{
+    float: left;
+}
+.menu{
+    list-style: none;
+}
+aside, img {
+    float: right;
+    border-left: 10px solid black;
+    width: 14%;
+    border-bottom: 10px solid black;
+}
+
+aside{
+    clear: right;
+    box-sizing: border-box;
+}
+main {
+    float: left;
+    width: 85.475%;
+}
+.minha-foto,
+.navegacao-site{
+    border-left: .5em solid black;
+}
+.img{
+    position: relative;
+    top:50px;
+    right: 50px;
+}
+fieldset{
+    border: 0;
+}
+
+
