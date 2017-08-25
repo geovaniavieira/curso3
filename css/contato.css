@@ -17,7 +17,7 @@ main h1 {
     text-align: center ;
     font-family: "open sans  Cadensed",sans-serif;
     padding: 20px;
-    margin:0;
+    margin:0px;
     text-transform: uppercase;
     border-bottom: 10px solid black;
 }
@@ -91,6 +91,13 @@ main {
 .minha-foto,
 .navegacao-site{
     border-left: .5em solid black;
+    border-bottom: .5em solid black;
+
+}
+.navegacao-site{
+    width: 270px;
+    float: right;
+    position: relative;
 }
 .img{
     position: relative;
@@ -100,5 +107,100 @@ main {
 fieldset{
     border: 0;
 }
-
-
+.icones-sociais a{
+    position: relative;
+}
+.icones-sociais a:hover:before,
+.icones-sociais a:focus:before{
+    content: attr(data-tooltip);
+    position: absolute;
+    background: black;
+    color: white;
+    top: 100%;
+    width: 300%;
+    right: 0;
+    text-indent: 0;
+    font-size: .75em;
+}
+.icones-sociais a:hover:after,
+.icones-sociais a:focus:after{
+    content: attr(data-tooltip);
+    position: absolute;
+   bottom: 0;
+    left: 0;
+    width: 0;
+    border-left: .75em solid transparent;
+    border-right: .75em solid transparent;
+    border-bottom: .75em solid black;
+}
+legend,
+label[for="Mensagem"]{
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 1.0em;
+}
+.assunto{
+    margin-left: -0.1em;
+}
+label[for],
+button{
+    display: block;
+}
+input[type="text"],
+input[type="Email"],
+textarea{
+    font-family: inherit;
+    font-size: 100%;
+    padding: .25em .5em;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-left: 1.0em;
+}
+button{
+    border: 0;
+    padding:  .5em 1em;
+    font-family: "open sans Cadensed", sans-serif;
+    background-color: #3C1D3D;
+    color: white;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-top: 1em;
+}
+input:invalid{
+    box-shadow: 0 0 3px red;
+}
+input:focus,
+textarea:focus{
+    background-color: #FFD;
+ }
+button:focus{
+  background-color: #8C1D3D;
+}
+input[value="Outro"] + input{
+    display: none;
+}
+input[value="Outro"]:checked + input {
+    display: block;
+}
+label[for="Nome"]{
+    position: relative;
+}
+label[for="Nome"]:after{
+    content: "";
+    background-color: #3C1D3D;
+    background-repeat:no-repeat ;
+    background-image: url("../imagens/usuario.png");
+    background-size:50% 50%;
+    background-position: center;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+#Nome{
+    width: calc(100% -  2em);
+    position: relative;
+    left: 2em;
+}
